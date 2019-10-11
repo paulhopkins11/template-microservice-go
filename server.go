@@ -8,7 +8,7 @@ import (
 
 func main() {
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-        fmt.Fprintf(w, "Success! The Framework Training GO template microservices is up and running!")
+        fmt.Fprintf(w, "Success!")
     })
 
     log.Fatal(http.ListenAndServe(":8080", nil))

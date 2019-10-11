@@ -1,5 +1,5 @@
-Framework Training Template GO Microservice
-============================================
+Training Template GO Microservice
+=================================
 Overview
 --------
 This is a very simple micro service that can be built and packaged into a docker image. You should use this micro service as a template for building your own micro services. This microservice uses the Go.
@@ -20,6 +20,6 @@ How to build and run this microservice
 3. Test the micro service
 
    ```
-   $ curl http://localhost:5000
-   Success! The Framework Training GO template microservices is up and running!
+   $ curl http://localhost:8080
+   Success!
    ```
